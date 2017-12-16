@@ -1,14 +1,13 @@
 title:             Khinshan Khan
 email:             your-email@example.com
 description:       A Blog
-author:            Start Bootstrap
+author:            Khinshan Khan
 baseurl:           "/test"
 url:               "http://khinshankhan.com/test"
 
 # Social Profiles
-twitter_username:  SBootstrap
 github_username:   kkhan01
-facebook_username: StartBootstrap
+facebook_username: khinshan.khan
 
 # Build settings
 markdown:          kramdown
