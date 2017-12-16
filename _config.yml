@@ -1,13 +1,13 @@
-title:             Clean Blog
+title:             Khinshan Khan
 email:             your-email@example.com
-description:       A Blog Theme by Start Bootstrap
+description:       A Blog
 author:            Start Bootstrap
 baseurl:           "/test"
-url:               "http://blackrockdigital.github.io"
+url:               "http://khinshankhan.com/test"
 
 # Social Profiles
 twitter_username:  SBootstrap
-github_username:   BlackrockDigital
+github_username:   kkhan01
 facebook_username: StartBootstrap
 
 # Build settings
