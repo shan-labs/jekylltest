@@ -30,10 +30,16 @@ background: '/img/posts/01_Blog-790x310.jpg'
 
 <p>As we got further and further away, it [the Earth] diminished in size. Finally it shrank to the size of a marble, the most beautiful you can imagine. That beautiful, warm, living object looked so fragile, so delicate, that if you touched it with a finger it would crumble and fall apart. Seeing this has to change a man.</p>
 
+{% assign image_files = site.static_files | where: "image", true %}
+{% for myimage in image_files %}
+{{ myimage.path }}
+<a href="{{ myimage.path }}">here</a>
+{% endfor %}
+
 <img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
 <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 
-  {% include image name="01_Blog-790x310.jpg" caption="Testing new including" %}
+{% include image.html name='01_Blog-790x310.jpg' caption="Testing new including" %}
 
 <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
 

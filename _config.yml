@@ -5,6 +5,13 @@ author:            Khinshan Khan
 baseurl:           "/test"
 url:               "http://khinshankhan.com/test"
 
+#Default Static Path
+defaults:
+  - scope:
+      path: "img/posts"
+    values:
+      image: true
+      
 # Social Profiles
 github_username:   kkhan01
 facebook_username: khinshan.khan
