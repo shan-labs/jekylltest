@@ -34,6 +34,8 @@ background: '/img/posts/01_Blog-790x310.jpg'
 {% for myimage in image_files %}
 {{ myimage.path }}
 <a href="{{ myimage.path }}">here</a>
+<img class="img-fluid" src="{{ myimage.path }}" alt="Demo Image">
+<span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 {% endfor %}
 
 <img class="img-fluid" src="https://source.unsplash.com/Mn9Fa_wQH-M/800x450" alt="Demo Image">
