@@ -32,8 +32,6 @@ background: '/img/posts/01_Blog-790x310.jpg'
 
 {% assign image_files = site.static_files | where: "image", true %}
 {% for myimage in image_files %}
-{{ myimage.path }}
-<a href="{{ myimage.path }}">here</a>
 <img class="img-fluid" src="{{ myimage.path }}" alt="Demo Image">
 <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 {% endfor %}
@@ -42,6 +40,9 @@ background: '/img/posts/01_Blog-790x310.jpg'
 <span class="caption text-muted">To go places and do things that have never been done before – that’s what living is all about.</span>
 
 {% include image.html name='01_Blog-790x310.jpg' caption="Testing new including" %}
+
+<img class="img-fluid" src="/img/posts/01_me.jpg" alt="Demo Image">
+<span class="caption text-muted">1 To go places and do things that have never been done before – that’s what living is all about.</span>
 
 <p>Space, the final frontier. These are the voyages of the Starship Enterprise. Its five-year mission: to explore strange new worlds, to seek out new life and new civilizations, to boldly go where no man has gone before.</p>
 
