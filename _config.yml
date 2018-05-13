@@ -2,7 +2,7 @@ title:             Khinshan Khan
 email:             your-email@example.com
 description:       Developer · Designer · Writer
 author:            Khinshan Khan
-baseurl:           "/test"
+baseurl:           "/jekylltest"
 url:               "http://khinshankhan.com/jekylltest"
 
 #Default Static Path
